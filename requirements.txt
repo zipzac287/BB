@@ -1,0 +1,11 @@
+# ==============================================================
+# FILE: requirements.txt
+# Cách cài: pip install -r requirements.txt
+# ==============================================================
+
+fastapi==0.110.0          # Web framework chính
+uvicorn[standard]==0.27.0 # Server chạy FastAPI
+sqlalchemy==2.0.27        # ORM — làm việc với database
+pydantic[email]==2.6.1    # Validate dữ liệu
+passlib[bcrypt]==1.7.4    # Hash password (bcrypt)
+python-jose[cryptography]==3.3.0  # Tạo và giải mã JWT token
